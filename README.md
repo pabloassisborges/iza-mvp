@@ -8,8 +8,8 @@ IZA is built to run on **[Docker](https://www.google.com.mx/url?sa=t&rct=j&q=&es
 #### **Development**
 To install and run in your computer just run the following commands in your terminal. You'll need to have Docker installed (See below for instructions without docker):
 
- 1.  Clone this repo:  `git clone https://github.com/IcaliaLabs/alpha.git`
- 2. Navigate into directory: `cd alpha` 
+ 1.  Clone this repo:  `git clone https://github.com/pabloassisborges/iza-mvp.git`
+ 2. Navigate into directory: `cd iza-mvp` 
  3. Install dependencies: `docker-compose run --rm alpha yarn install`
  4. Then you can lift the server: `docker-compose up alpha`
 
