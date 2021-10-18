@@ -21,14 +21,14 @@ const p = [
   'Há algum relato do paciente mencionando sentimentos de fraqueza e indisposição para enfrentar os problemas de sua vida? ',
   'Há relatos recentes do paciente acerca da incapacidade de lidar com seus fracassos e conquistas?',
   'Sobre o círculo social deste paciente, as pessoas têm comentado que ele(a) está com sua autoestima baixa demais nos últimos tempos?',
-  'Os relatos sobre sentimentos de insatisfação com a vida deste cliente estão aumentando nos últimos tempos?',
+  'Os relatos sobre sentimentos de insatisfação com a vida deste paciente estão aumentando nos últimos tempos?',
   'Na maior parte das vezes o paciente relata aborrecimentos e/ou insatisfações?',
   'As pessoas com quem o paciente convive têm feito relatos sobre o paciente achando-o muito insatisfeito?',
   'O paciente tem se culpado excessivamente por aquilo que têm dado errado em sua vida?',
   'Na maior parte do tempo, o paciente relata sentimentos de culpa, desamparo ou inutilidade?',
   'Há relatos do paciente que amigos e familiares dizem que ele está se sentindo excessivamente culpado ultimamente?',
   'O paciente se sente punido pelas coisas que tem feito ultimamente?',
-  'Mesmo que o cliente faça tudo certo, ele têm se sentido punido constantemente?',
+  'Mesmo que o paciente faça tudo certo, ele tem se sentido punido constantemente?',
   'As pessoas têm relatado que acham que o paciente se pune demais?',
   'O paciente tem relatado decepção consigo mesmo?',
   'O paciente relata que a capacidade de suportar a si mesmo (a) tem diminuído ultimamente?',
@@ -37,7 +37,7 @@ const p = [
   'O paciente é muito crítico(a) para com relação a si mesmo(a)?',
   'Há relatos de pessoas achando-o(a) crítico(a) demais?',
   'Há relatos do paciente de que seria melhor morrer pra resolver os problemas que tem?',
-  'O cliente já relatou ter pensado em morrer em muitas situações?',
+  'O paciente já relatou ter pensado em morrer em muitas situações?',
   'O paciente relatou ter se pegado pensando em morrer ou se matar?',
   'O paciente tem tido crises frequentes de choro?',
   'O paciente tem chorado muito por pensar na sua vida e em seus fracassos?',
@@ -4126,7 +4126,6 @@ const questions = {
       {
         nextId: 'alta',
         finishConversation: true,
-        input: endOfConversation()
       },
     ],
   },
@@ -4136,7 +4135,6 @@ const questions = {
       {
         nextId: 'media_alta',
         finishConversation: true,
-        input: endOfConversation()
       },
     ],
   },
@@ -4146,7 +4144,6 @@ const questions = {
       {
         nextId: 'media',
         finishConversation: true,
-        input: endOfConversation()
       },
     ],
   },
@@ -4156,7 +4153,6 @@ const questions = {
       {
         nextId: 'media_baixa',
         finishConversation: true,
-        input: endOfConversation()
       },
     ],
   },
@@ -4166,9 +4162,34 @@ const questions = {
       {
         nextId: 'baixa',
         finishConversation: true,
-        input: endOfConversation()
       },
     ],
+  },
+  finish1:{
+    botPrompt: "Agradeço por contar comigo para auxiliar no diagnóstico de seu paciente. Segue um ótimo artigo à respeito de depressão:",
+    answers: [
+      {
+        nextId: 'finish2',
+      },
+    ], 
+  },
+  finish2:{
+    botPrompt: 'https://www.researchgate.net/profile/Antonio-Nardi/publication/26373093_Depressao_no_Ciclo_da_Vida/links/568d0ab908aec2fdf6f59119/Depressao-no-Ciclo-da-Vida.pdf',
+    type: RTypes.LINK,
+    answers: [
+      {
+        nextId: 'finish3',
+      },
+    ], 
+  },
+  finish3:{
+    botPrompt: "Até logo! (Para recomeçar, recarregue a página)",
+    input: endOfConversation(),
+    answers: [
+      {
+        nextId: 'finish3',
+      },
+    ], 
   }
 };
 
