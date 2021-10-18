@@ -69,6 +69,7 @@ export function* sendMessageFromUserNow(action) {
   yield put(turnOnBotThinking());
 
   if (response.sumToBags) {
+    console.log('sumToBags')
     yield put(sumToBags(response.sumToBags));
   }
 
@@ -138,6 +139,7 @@ export function* sendMessageFromUserNow(action) {
         yield put(sendMessageFromUser('', nextBubble.key));
       }
     } else {
+      console.log("entrou recomendacao")
       yield put(displayRecommendation());
     }
   } else if (response.shouldEstimateRecommendation) {
@@ -146,6 +148,9 @@ export function* sendMessageFromUserNow(action) {
 }
 
 export function* shouldEstimateRecommendationNow(action) {
+
+  console.log("olha aqui: " + JSON.stringify(action))
+
   const bags = action.payload;
   yield put(dontEstimateRecommendation());
   const estimationBubble = BotMind.getRecommendationBubble(bags);
@@ -181,13 +186,13 @@ function botThinkingTime(message) {
   }
   const messageLength = message.length;
   if (messageLength < 100) {
-    time *= 2;
+    time *= 0; //2
   } else if (messageLength > 100 && messageLength < 200) {
-    time *= 3;
+    time *= 0; //3
   } else if (messageLength > 200 && messageLength < 300) {
-    time *= 4;
+    time *= 0; //4
   } else if (messageLength > 300) {
-    time *= 5;
+    time *= 0; //5
   }
   return time;
 }

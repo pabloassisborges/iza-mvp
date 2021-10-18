@@ -97,53 +97,33 @@ const questions = {
         nextId: 'p2',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p2',
         sumToBags: [
-          { name: 'alta', points: 0 },
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p2',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p2',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p2',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
           { name: 'baixa', points: 1 }
         ],
       },
@@ -158,53 +138,33 @@ const questions = {
         nextId: 'p3',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p3',
         sumToBags: [
-          { name: 'alta', points: 0 },
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p3',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p3',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p3',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
           { name: 'baixa', points: 1 }
         ],
       },
@@ -219,53 +179,46 @@ const questions = {
         nextId: 'p4',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p4',
         sumToBags: [
-          { name: 'alta', points: 0 },
+          
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p4',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p4',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p4',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -280,53 +233,53 @@ const questions = {
         nextId: 'p5',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p5',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p5',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p5',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p5',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -341,53 +294,53 @@ const questions = {
         nextId: 'p6',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p6',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p6',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p6',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p6',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -402,53 +355,53 @@ const questions = {
         nextId: 'p7',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p7',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p7',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p7',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p7',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -463,53 +416,53 @@ const questions = {
         nextId: 'p8',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p8',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p8',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p8',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p8',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -524,53 +477,53 @@ const questions = {
         nextId: 'p9',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p9',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p9',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p9',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p9',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -585,53 +538,53 @@ const questions = {
         nextId: 'p10',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p10',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p10',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p10',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p10',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -646,53 +599,53 @@ const questions = {
         nextId: 'p11',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p11',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p11',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p11',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p11',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -707,53 +660,53 @@ const questions = {
         nextId: 'p12',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p12',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p12',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p12',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p12',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -768,53 +721,53 @@ const questions = {
         nextId: 'p13',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p13',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p13',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p13',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p13',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -829,53 +782,53 @@ const questions = {
         nextId: 'p14',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p14',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p14',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p14',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p14',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -890,53 +843,53 @@ const questions = {
         nextId: 'p15',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p15',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p15',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p15',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p15',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -951,53 +904,53 @@ const questions = {
         nextId: 'p16',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p16',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p16',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p16',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p16',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1012,53 +965,53 @@ const questions = {
         nextId: 'p17',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p17',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p17',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p17',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p17',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1073,53 +1026,53 @@ const questions = {
         nextId: 'p18',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p18',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p18',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p18',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p18',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1134,53 +1087,53 @@ const questions = {
         nextId: 'p19',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p19',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p19',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p19',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p19',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1195,53 +1148,53 @@ const questions = {
         nextId: 'p20',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p20',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p20',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p20',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p20',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1256,53 +1209,53 @@ const questions = {
         nextId: 'p21',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p21',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p21',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p21',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p21',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1317,53 +1270,53 @@ const questions = {
         nextId: 'p22',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p22',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p22',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p22',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p22',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1378,53 +1331,53 @@ const questions = {
         nextId: 'p23',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p23',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p23',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p23',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p23',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1439,53 +1392,53 @@ const questions = {
         nextId: 'p24',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p24',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p24',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p24',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p24',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1500,53 +1453,53 @@ const questions = {
         nextId: 'p25',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p25',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p25',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p25',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p25',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1561,53 +1514,53 @@ const questions = {
         nextId: 'p26',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p26',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p26',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p26',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p26',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1622,53 +1575,53 @@ const questions = {
         nextId: 'p27',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p27',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p27',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p27',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p27',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1683,53 +1636,53 @@ const questions = {
         nextId: 'p28',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p28',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p28',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p28',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p28',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1744,53 +1697,53 @@ const questions = {
         nextId: 'p29',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p29',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p29',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p29',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p29',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1805,53 +1758,53 @@ const questions = {
         nextId: 'p30',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p30',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p30',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p30',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p30',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1866,53 +1819,53 @@ const questions = {
         nextId: 'p31',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p31',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p31',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p31',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p31',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1927,53 +1880,53 @@ const questions = {
         nextId: 'p32',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p32',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p32',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p32',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p32',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -1988,53 +1941,53 @@ const questions = {
         nextId: 'p33',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p33',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p33',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p33',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p33',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2049,53 +2002,53 @@ const questions = {
         nextId: 'p34',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p34',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p34',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p34',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p34',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2110,53 +2063,53 @@ const questions = {
         nextId: 'p35',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p35',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p35',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p35',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p35',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2171,53 +2124,53 @@ const questions = {
         nextId: 'p36',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p36',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p36',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p36',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p36',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2232,53 +2185,53 @@ const questions = {
         nextId: 'p37',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p37',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p37',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p37',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p37',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2293,53 +2246,53 @@ const questions = {
         nextId: 'p38',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p38',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p38',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p38',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p38',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2354,53 +2307,53 @@ const questions = {
         nextId: 'p39',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p39',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p39',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p39',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p39',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2415,53 +2368,53 @@ const questions = {
         nextId: 'p40',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p40',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p40',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p40',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p40',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2476,53 +2429,53 @@ const questions = {
         nextId: 'p41',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p41',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p41',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p41',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p41',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2537,53 +2490,53 @@ const questions = {
         nextId: 'p42',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p42',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p42',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p42',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p42',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2598,53 +2551,53 @@ const questions = {
         nextId: 'p43',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p43',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p43',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p43',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p43',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2659,53 +2612,53 @@ const questions = {
         nextId: 'p44',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p44',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p44',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p44',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p44',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2720,53 +2673,53 @@ const questions = {
         nextId: 'p45',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p45',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p45',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p45',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p45',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2781,53 +2734,53 @@ const questions = {
         nextId: 'p46',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p46',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p46',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p46',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p46',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2842,53 +2795,53 @@ const questions = {
         nextId: 'p47',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p47',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p47',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p47',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p47',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2903,53 +2856,53 @@ const questions = {
         nextId: 'p48',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p48',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p48',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p48',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p48',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -2964,53 +2917,53 @@ const questions = {
         nextId: 'p49',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p49',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p49',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p49',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p49',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3025,53 +2978,53 @@ const questions = {
         nextId: 'p50',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p50',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p50',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p50',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p50',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3086,53 +3039,53 @@ const questions = {
         nextId: 'p51',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p51',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p51',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p51',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p51',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3147,53 +3100,53 @@ const questions = {
         nextId: 'p52',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p52',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p52',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p52',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p52',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3208,53 +3161,53 @@ const questions = {
         nextId: 'p53',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p53',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p53',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p53',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p53',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3269,53 +3222,53 @@ const questions = {
         nextId: 'p54',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p54',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p54',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p54',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p54',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3330,53 +3283,53 @@ const questions = {
         nextId: 'p55',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p55',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p55',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p55',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p55',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3391,53 +3344,53 @@ const questions = {
         nextId: 'p56',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p56',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p56',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p56',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p56',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3452,53 +3405,53 @@ const questions = {
         nextId: 'p57',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p57',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p57',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p57',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p57',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3513,53 +3466,53 @@ const questions = {
         nextId: 'p58',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p58',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p58',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p58',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p58',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3574,53 +3527,53 @@ const questions = {
         nextId: 'p59',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p59',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p59',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p59',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p59',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3635,53 +3588,53 @@ const questions = {
         nextId: 'p60',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p60',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p60',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p60',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p60',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3696,53 +3649,53 @@ const questions = {
         nextId: 'p61',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p61',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p61',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p61',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p61',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3757,53 +3710,53 @@ const questions = {
         nextId: 'p62',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p62',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p62',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p62',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p62',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3818,53 +3771,53 @@ const questions = {
         nextId: 'p63',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p63',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p63',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p63',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p63',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3879,53 +3832,53 @@ const questions = {
         nextId: 'p64',
         sumToBags: [
           { name: 'alta', points: 1 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p64',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 1 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p64',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 1 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p64',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 1 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p64',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 1 }
         ],
       },
@@ -3940,53 +3893,53 @@ const questions = {
         nextId: 'p65',
         sumToBags: [
           { name: 'alta', points: 5 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p65',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 5 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p65',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 5 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p65',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 5 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p65',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 5 }
         ],
       },
@@ -4001,53 +3954,53 @@ const questions = {
         nextId: 'p66',
         sumToBags: [
           { name: 'alta', points: 5 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
         nextId: 'p66',
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 5 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
         nextId: 'p66',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 5 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
         nextId: 'p66',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 5 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
         nextId: 'p66',
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
+           
+          
+
+
           { name: 'baixa', points: 5 }
         ],
       },
@@ -4059,61 +4012,57 @@ const questions = {
     answers: [
 			{ 
         answer: 'Concordo totalmente.',
-        nextId: 'p67',
+        nextId: null,
         shouldEstimateRecommendation: true,
         sumToBags: [
           { name: 'alta', points: 5 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+          
+
+
+
         ],
       },
       { 
         answer: 'Concordo em parte.',
-        nextId: 'p67',
+        nextId: null,
         shouldEstimateRecommendation: true,
         sumToBags: [
-          { name: 'alta', points: 0 },
+           
           { name: 'media-alta', points: 5 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
+
         ],
       },
       { 
         answer: 'Não concordo, nem discordo.',
-        nextId: 'p67',
+        nextId: null,
         shouldEstimateRecommendation: true,
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
+           
+          
           { name: 'media', points: 5 },
-          { name: 'media-baixa', points: 0 },
-          { name: 'baixa', points: 0 }
+
+
         ],
       },
       { 
         answer: 'Discordo em parte.',
-        nextId: 'p67',
+        nextId: null,
         shouldEstimateRecommendation: true,
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
+           
+          
+
           { name: 'media-baixa', points: 5 },
-          { name: 'baixa', points: 0 }
+
         ],
       },
       { 
         answer: 'Discordo totalmente.',
-        nextId: 'p67',
+        nextId: null,
         shouldEstimateRecommendation: true,
         sumToBags: [
-          { name: 'alta', points: 0 },
-          { name: 'media-alta', points: 0 }, 
-          { name: 'media', points: 0 },
-          { name: 'media-baixa', points: 0 },
           { name: 'baixa', points: 5 }
         ],
       },
@@ -4124,7 +4073,7 @@ const questions = {
     botPrompt: "Após análise, acredito que a probabilidade do seu paciente estar com depressão é <strong>alta (90%)</strong>.",
     answers: [
       {
-        nextId: 'alta',
+        nextId: 'finish1',
         finishConversation: true,
       },
     ],
@@ -4133,7 +4082,7 @@ const questions = {
     botPrompt: "Após análise, acredito que a probabilidade do seu paciente estar com depressão é <strong>média-alta (70%)</strong>.",
     answers: [
       {
-        nextId: 'media_alta',
+        nextId: 'finish1',
         finishConversation: true,
       },
     ],
@@ -4142,7 +4091,7 @@ const questions = {
     botPrompt: "Após análise, acredito que a probabilidade do seu paciente estar com depressão é <strong>media (50%)</strong>.",
     answers: [
       {
-        nextId: 'media',
+        nextId: 'finish1',
         finishConversation: true,
       },
     ],
@@ -4151,7 +4100,7 @@ const questions = {
     botPrompt: "Após análise, acredito que a probabilidade do seu paciente estar com depressão é <strong>média-baixa (30%)</strong>.",
     answers: [
       {
-        nextId: 'media_baixa',
+        nextId: 'finish1',
         finishConversation: true,
       },
     ],
@@ -4160,7 +4109,7 @@ const questions = {
     botPrompt: "Após análise, acredito que a probabilidade do seu paciente estar com depressão é <strong>baixa (10%)</strong>.",
     answers: [
       {
-        nextId: 'baixa',
+        nextId: 'finish1',
         finishConversation: true,
       },
     ],
@@ -4174,7 +4123,7 @@ const questions = {
     ], 
   },
   finish2:{
-    botPrompt: 'https://www.researchgate.net/profile/Antonio-Nardi/publication/26373093_Depressao_no_Ciclo_da_Vida/links/568d0ab908aec2fdf6f59119/Depressao-no-Ciclo-da-Vida.pdf',
+    botPrompt: 'shorturl.at/fuyNS',
     type: RTypes.LINK,
     answers: [
       {
@@ -4183,7 +4132,7 @@ const questions = {
     ], 
   },
   finish3:{
-    botPrompt: "Até logo! (Para recomeçar, recarregue a página)",
+    botPrompt: "Até logo!",
     input: endOfConversation(),
     answers: [
       {
