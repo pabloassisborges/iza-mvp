@@ -49,5 +49,5 @@ COPY --from=development /code /code
 RUN yarn install \
     && npm run build
 
-# Step 10: Set the default command
+# Step 10: Set the default command .
 CMD yarn start:prod
